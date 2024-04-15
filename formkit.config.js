@@ -1,8 +1,13 @@
-import { fr } from '@formkit/i18n'
+import { defaultConfig } from '@formkit/vue'
+import { genesisIcons } from "@formkit/icons"
+import { createMultiStepPlugin } from '@formkit/addons'
+import '@formkit/addons/css/multistep'
 
-const config = {
-  locales: { fr },
-  locale: 'fr',
-}
+const config = defaultConfig({
+  plugins: [createMultiStepPlugin()],
+  icons: {
+    ...genesisIcons
+  },
+})
 
 export default config

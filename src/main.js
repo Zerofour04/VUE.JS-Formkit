@@ -1,8 +1,10 @@
 import { createApp } from 'vue'
-import './style.css'
-import { plugin, defaultConfig } from '@formkit/vue'
-
 import App from './App.vue'
+import './style.css'
+import "@formkit/addons/css/multistep";
+import "@formkit/themes/genesis";
+
+import { plugin, defaultConfig } from '@formkit/vue'
 
 import formKitConfig from '../formkit.config'
 

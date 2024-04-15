@@ -11,6 +11,9 @@ const count = ref(0)
 
 <template>
   <h1>{{ msg }}</h1>
+  <div>
+    <Tab/>
+  </div>
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
@@ -20,22 +23,19 @@ const count = ref(0)
     </p>
   </div>
 
-  <div>
-    <Tab/>
-  </div>
-
   <p>
     Check out
     <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
       >create-vue</a
     >, thedfs official Vue + Vite starter
   </p>
+
   <p>
     Install
     <a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
     in your IDE for a better DX
   </p>
-  <p class="read-the-docs">Test</p>
+  <p class="read-the-docs">Hallo Welt</p>
 </template>
 
 <style scoped>

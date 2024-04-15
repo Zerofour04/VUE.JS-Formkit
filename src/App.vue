@@ -4,14 +4,18 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
+    <a href="https://medienstuermer.de" target="_blank">
+      <img src="./assets/logo-ms.png" class="logo" alt="Vite logo" />
+    </a> 
+    <br/>
     <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
+      <img src="/vite.svg" class="logo" alt="Vite logo" width="50"/>
     </a>
     <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" width="50" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld/>
 </template>
 
 <style scoped>
